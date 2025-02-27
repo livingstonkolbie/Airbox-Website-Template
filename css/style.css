@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* START HEADER */
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px 10px 50px 42px;
+    background-color: #262336;
+}
+
+.headerNav li {
+    display: inline;
+    padding: 0 0 0 10px;
+    font-family: arial;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #686466;
+}
+
+/* START HERO SECTION */
+
+.heroSection {
+    border-top: 3px solid #2d2a3d;
+    background-color: #262336;
+}
+
+.heroBox {
+    display: flex;
+    flex-direction: column;
+    padding: 46px 0 60px 0;
+    align-items: center;
+    font-family: Arial;
+}
+
+.twentyFour {
+    background: #D7D6DC;
+    background: linear-gradient(to bottom, #D7D6DC 0%, #6B6779 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: x-large;
+}
+
+.customerSupport {
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+.forAll {
+    background: #D7D6DC;
+    background: linear-gradient(to bottom, #D7D6DC 0%, #6B6779 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: x-large;
+}
+
+.heroDescription p {
+    padding: 20px 485px;
+    text-align: center;
+    color: #686472;
+}
+
+.tryNowButton {
+    width: 100px;
+    height: 45px;
+    border-radius: 9px;
+    background: rgb(107,103,128);
+    background: linear-gradient(0deg, rgba(107,103,128,1) 32%, rgba(169,162,199,1) 84%);
+    color: #ecffff;
+    font-size: medium;
+    letter-spacing: 1px;
+}
