@@ -37,17 +37,17 @@ a {
 .heroBox {
     display: flex;
     flex-direction: column;
-    padding: 46px 0 60px 0;
     align-items: center;
+    padding: 46px 0 60px 0;
     font-family: Arial;
 }
 
 .twentyFour {
+    font-size: x-large;
     background: #D7D6DC;
     background: linear-gradient(to bottom, #D7D6DC 0%, #6B6779 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: x-large;
 }
 
 .customerSupport {
@@ -56,11 +56,11 @@ a {
 }
 
 .forAll {
+    font-size: x-large;
     background: #D7D6DC;
     background: linear-gradient(to bottom, #D7D6DC 0%, #6B6779 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: x-large;
 }
 
 .heroDescription p {
@@ -73,12 +73,41 @@ a {
     width: 100px;
     height: 45px;
     border-radius: 9px;
+    font-size: medium;
+    letter-spacing: 1px;
     background: rgb(107,103,128);
     background: linear-gradient(0deg, rgba(107,103,128,1) 32%, rgba(169,162,199,1) 84%);
     color: #ecffff;
-    font-size: medium;
-    letter-spacing: 1px;
 }
 
 /* START SERVICES SECTION */
 
+.servicesSection {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 142px 52px;
+    font-family: arial;
+    font-family: arial;
+    background-color: #f29b66;
+}
+
+.try {
+    text-align: center;
+}
+
+.topTitle {
+    font-size: 33px;
+    color: #ffffff;
+}
+
+.bottomTitle {
+    font-size: 27px;
+    background: #E2E2E5;
+    background: linear-gradient(to bottom, #E2E2E5 39%, #D9C9C6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    padding: 0 13px;
+}
