@@ -85,7 +85,7 @@ a {
 .servicesSection {
     display: flex;
     justify-content: space-around;
-    padding: 5px 142px 52px;
+    padding: 5px 45px 52px;
     font-family: arial;
     font-family: arial;
     background-color: #f29b66;
@@ -108,6 +108,26 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
-p {
-    padding: 0 13px;
+.paragraph p {
+    padding: 0 37px;
+    letter-spacing: 1px;
 }
+
+
+/* START HOSTING SECTION */
+
+.hostingSection {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 35px 65px;
+    background-color: #e8e8ea;
+}
+
+.hostTitle {
+    width: 225px;
+    height: 80px;
+    border: 1px solid #262336;
+    background-color: #6f6c89;
+    border-radius: 3px 3px 0 0; 
+}
+
