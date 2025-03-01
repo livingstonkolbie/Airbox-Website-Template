@@ -119,15 +119,49 @@ a {
 .hostingSection {
     display: flex;
     justify-content: space-around;
-    padding: 35px 35px 65px;
+    padding: 35px 19px 65px 30px;
     background-color: #e8e8ea;
 }
 
 .hostTitle {
-    width: 225px;
+    width: 250px;
     height: 80px;
-    border: 1px solid #262336;
+    text-align: center;
     background-color: #6f6c89;
     border-radius: 3px 3px 0 0; 
 }
 
+.hostTitle p {
+    padding-top: 20px;
+    font-size: xx-large;
+    font-family: arial;
+    background: #D7D6DC;
+    background: linear-gradient(to bottom, #D7D6DC 0%, #807b91 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.price {
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    background-color: #6f6c89;
+    border-radius: 3px 3px 0 0;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #ffffff;
+    align-items: center;
+}
+
+.price p {
+    font-size: xx-large;
+    font-family: arial;
+    color: #dbd8d8
+}
+
+.price p:nth-child(2) {
+    color: red;
+    font-size: larger;
+    font-weight: 800;
+    padding-top: 6px;
+}
