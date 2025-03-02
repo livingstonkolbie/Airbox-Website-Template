@@ -301,3 +301,9 @@ a {
     font-weight: bold;
     color: #ffffff;
 }
+
+/* START BRANDS ROW */
+
+.brandsRow img {
+    width: 100%;
+}
