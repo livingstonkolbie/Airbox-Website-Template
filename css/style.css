@@ -248,3 +248,56 @@ a {
     font-weight: bold;
     color: #ffffff;
 }
+
+/* START SERVICES SECTIOIN */
+
+.infoSection {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 19px 65px 30px;
+    background-color: #262336;
+}
+
+.servSectBox {
+    padding-left: 59px;
+}
+
+.servTitle {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: arial;
+    background: #D7D6DC;
+    background: linear-gradient(to bottom, #D7D6DC 0%, #807b91 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.servList {
+    padding: 22px 0 22px 60px;
+    font-size: 20px;
+    font-family: arial;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.servList li::marker {
+    color: #ffa500;
+}
+.servParagraph {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: arial;
+    color: #bebcbe;
+}
+
+.servButton {
+    width: 154px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(229,90,47);
+    background: linear-gradient(0deg, rgba(229,90,47,1) 34%, rgba(243,143,88,1) 72%);
+    font-size: larger;
+    font-weight: bold;
+    color: #ffffff;
+}
